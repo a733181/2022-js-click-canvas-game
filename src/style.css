@@ -1,0 +1,43 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  background-color: black;
+}
+
+.canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: lightgoldenrodyellow;
+}
+
+.click-canvas {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.btn {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  border: 2px solid white;
+  color: white;
+  transform: translateX(-50%);
+  background-color: transparent;
+  padding: 10px 15px;
+  border-radius: 15px;
+  cursor: pointer;
+  z-index: 1;
+}
+.btn:hover {
+  background-color: yellow;
+  color: black;
+}
+.btn:active {
+  top: 60.5%;
+}
